@@ -24,7 +24,7 @@ forever(spriteCounter)
 
 function spriteCounter() {
     for (let index = 0; index <= 4; index++) {
-    mySprite.sayText(index+1, 500)
+    mySprite.sayText(index*2, 500)
     pause(500)
     }
 }
